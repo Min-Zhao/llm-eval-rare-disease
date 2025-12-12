@@ -6,17 +6,15 @@ This repository provides the full **code, prompt templates, NLP metrics, and ana
 
 Included components:
 
-- Answer generation for open-weight LLMs (Ollama)
-- LLM-based evaluators (reference-free, reference-guided, and rubric-based)
-- Pairwise comparison evaluator
+- Answer generation script for open-weight LLMs (Ollama)
+- LLM-based evaluation approaches: reference-free, reference-guided, and pairwise comparison evaluator(optional).
 - NLP metrics: BLEU, ROUGE-L, METEOR, BERTScore
 - Correlation, ICC, and binary agreement tools
 - A small synthetic example dataset for quick testing
 
 The **full generated answers and physician-annotated accuracy scores** used in the manuscript are publicly available at: 
-CLA-QA: An Expert-Annotated Benchmark of Patient Questions and LLM Responses for Complex Lymphatic Anomalies.
 
-DOI: 🔗 https://data.library.wustl.edu/record/108301?v=tab
+CLA-QA: An Expert-Annotated Benchmark of Patient Questions and LLM Responses for Complex Lymphatic Anomalies. 🔗 https://data.library.wustl.edu/record/108301?v=tab
 
 ## Installation
 ```bash
@@ -32,3 +30,7 @@ If you use this repository or the evaluation pipeline, please cite:
 
 Zhao M, et al. Automating Evaluation of LLM-Generated Responses to Patient Questions about Rare Diseases.
 medRxiv, 2025.  https://doi.org/10.1101/2025.10.06.25337181
+
+## License
+
+This repository is released under the **MIT License**.
