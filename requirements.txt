@@ -1,0 +1,13 @@
+pandas
+numpy
+tqdm
+scipy
+
+# LLM + evaluation
+ollama
+
+# NLP metrics
+bleu
+rouge-score
+nltk
+bert-score
