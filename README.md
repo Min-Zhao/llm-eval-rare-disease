@@ -1,8 +1,6 @@
 # LLM Evaluation for Free-Text Rare Disease QA  
 Code and full prompt templates for automating LLM-based evaluation of free-text answers to rare disease patient questions.
 
----
-
 ## Overview
 This repository provides the full **code, prompt templates, NLP metrics, and analysis scripts** used in the manuscript evaluating large language models (LLMs) for patient-facing free-text QA in **Complex Lymphatic Anomalies (CLAs)**.
 
@@ -16,10 +14,9 @@ Included components:
 - A small synthetic example dataset for quick testing
 
 The **full generated answers and physician-annotated accuracy scores** used in the manuscript are publicly available at: 
-CLA-QA: An Expert-Annotated Benchmark of Patient Questions and LLM Responses for Complex Lymphatic Anomalies 
-DOI: https://doi.org/10.7936/6rxs-108301
+CLA-QA: An Expert-Annotated Benchmark of Patient Questions and LLM Responses for Complex Lymphatic Anomalies.
 
----
+DOI: 🔗 https://data.library.wustl.edu/record/108301?v=tab
 
 ## Installation
 ```bash
@@ -28,8 +25,7 @@ cd llm-eval-free-text-rare-disease-qa
 pip install -r requirements.txt
 python -c "import nltk; nltk.download('wordnet')"
 ```
-
-- Note: Requires Ollama for local LLM evaluation.
+**Note:** This repository uses **Ollama** to run local LLMs for evaluation.
 
 ## Citation
 If you use this repository or the evaluation pipeline, please cite:
