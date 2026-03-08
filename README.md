@@ -1,4 +1,4 @@
-# LLM Evaluation for Free-Text Rare Disease QA  
+# LLM-based Evaluation for Free-Text Rare Disease QA  
 Code and full prompt templates for automating LLM-based evaluation of free-text answers to rare disease patient questions.
 
 ## Overview
